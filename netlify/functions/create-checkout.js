@@ -4,7 +4,12 @@ exports.handler = async (event) => {
   try {
     const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
     const { email, items } = JSON.parse(event.body || '{}');
-    const total = items.reduce((sum, i) => sum + i.price * (i.quantity || 1), 0);
+
+    const total = items.reduce((sum, i) => {
+      const price = parseFloat(String(i.price).replace(/[^0-9.]/g, ''));
+      const qty = parseInt(i.quantity) || 1;
+      return sum + price * qty;
+    }, 0);
 
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
