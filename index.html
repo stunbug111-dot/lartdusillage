@@ -2052,7 +2052,7 @@ function confirmOrder(){
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       email: email,
-      items: cart.map(i => ({ name: i.name, quantity: i.qty || 1, price: i.price }))
+      items: cart.map(i => ({ name: (i.product?.name || 'Parfum'), quantity: i.qty || 1, price: (i.product?.price || 0) })), total: getTotal()
     })
   })
   .then(res => res.json())
