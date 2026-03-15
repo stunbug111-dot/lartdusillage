@@ -6,16 +6,22 @@ exports.handler = async (event) => {
   }
 
   try {
-    const body = JSON.parse(event.body);
-    const { email, currency, description } = body;
+    // Parsing défensif du body (string, base64, ou déjà objet)
+    let body = event.body;
+    if (!body) throw new Error('Body vide');
+    if (event.isBase64Encoded) body = Buffer.from(body, 'base64').toString('utf8');
+    if (typeof body === 'string') body = JSON.parse(body);
 
-    // Compatible avec les deux versions du frontend
-    const amount = body.amount || body.totalAmount;
+    console.log('[create-checkout] body reçu:', JSON.stringify(body));
 
-    console.log('[create-checkout] amount reçu:', amount, '| email:', email);
+    const email = body.email;
+    const currency = body.currency || 'eur';
+    const description = body.description || "Commande L'Art du Sillage";
+    const amount = parseInt(body.amount || body.totalAmount || 0, 10);
+
+    console.log('[create-checkout] amount parsé:', amount);
 
     if (!amount || amount <= 0 || isNaN(amount)) {
-      console.error('[create-checkout] Montant invalide:', amount);
       return {
         statusCode: 400,
         body: JSON.stringify({ error: 'Montant invalide: ' + amount })
@@ -29,11 +35,9 @@ exports.handler = async (event) => {
       line_items: [
         {
           price_data: {
-            currency: currency || 'eur',
-            unit_amount: amount, // Montant exact en centimes depuis le site
-            product_data: {
-              name: description || "Commande L'Art du Sillage",
-            },
+            currency: currency,
+            unit_amount: amount,
+            product_data: { name: description },
           },
           quantity: 1,
         },
