@@ -1,44 +1,59 @@
-const Stripe = require('stripe');
+const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
 exports.handler = async (event) => {
+  if (event.httpMethod !== 'POST') {
+    return { statusCode: 405, body: 'Method Not Allowed' };
+  }
+
   try {
-    const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
-    const { email, items, total } = JSON.parse(event.body || '{}');
+    const { email, items, totalAmount } = JSON.parse(event.body);
 
-    // total arrive déjà en centimes depuis le HTML (livraison incluse)
-    const amount = parseInt(total) || items.reduce((sum, i) => {
-      return sum + (parseInt(i.price) || 0) * (parseInt(i.quantity) || 1);
-    }, 0);
+    // totalAmount est envoyé en centimes depuis le site (ex: 3289 pour 32.89€)
+    // On l'utilise directement pour garantir que Stripe affiche exactement le même montant
+    const amountInCents = totalAmount;
 
-    if (!amount || amount <= 0) {
-      throw new Error('Montant invalide: ' + amount);
+    if (!amountInCents || amountInCents <= 0) {
+      return {
+        statusCode: 400,
+        body: JSON.stringify({ error: 'Montant invalide' })
+      };
     }
+
+    // Construire la description du récapitulatif pour Stripe
+    const description = items
+      .map(i => `${i.name} × ${i.quantity}`)
+      .join(', ');
 
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
-      customer_email: email,
-      line_items: [{
-        price_data: {
-          currency: 'eur',
-          product_data: { name: "Commande L'Art du Sillage" },
-          unit_amount: amount,
-        },
-        quantity: 1,
-      }],
       mode: 'payment',
-      success_url: 'https://lartdusillage.netlify.app?payment=success',
-      cancel_url: 'https://lartdusillage.netlify.app?payment=cancel',
+      customer_email: email,
+      line_items: [
+        {
+          price_data: {
+            currency: 'eur',
+            unit_amount: amountInCents, // Montant exact du site, en centimes
+            product_data: {
+              name: 'Commande L\'Art du Sillage',
+              description: description,
+            },
+          },
+          quantity: 1,
+        },
+      ],
+      success_url: `${process.env.URL}/index.html?payment=success&session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `${process.env.URL}/index.html?payment=cancel`,
     });
 
     return {
       statusCode: 200,
-      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ url: session.url }),
     };
+
   } catch (err) {
+    console.error('Stripe error:', err);
     return {
       statusCode: 500,
-      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ error: err.message }),
     };
   }
