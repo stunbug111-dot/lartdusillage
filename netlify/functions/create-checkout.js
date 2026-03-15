@@ -3,10 +3,10 @@ const Stripe = require('stripe');
 exports.handler = async (event) => {
   try {
     const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
-    const { email, items } = JSON.parse(event.body || '{}');
+    const { email, items, total } = JSON.parse(event.body || '{}');
 
-    // Les prix arrivent déjà en centimes depuis le HTML
-    const amount = items.reduce((sum, i) => {
+    // total arrive déjà en centimes depuis le HTML (livraison incluse)
+    const amount = parseInt(total) || items.reduce((sum, i) => {
       return sum + (parseInt(i.price) || 0) * (parseInt(i.quantity) || 1);
     }, 0);
 
