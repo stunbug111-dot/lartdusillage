@@ -6,13 +6,19 @@ exports.handler = async (event) => {
   }
 
   try {
-    const { email, amount, currency, description } = JSON.parse(event.body);
+    const body = JSON.parse(event.body);
+    const { email, currency, description } = body;
 
-    // `amount` est le total exact du site, en centimes (ex: 3289 = 32.89€)
-    if (!amount || amount <= 0) {
+    // Compatible avec les deux versions du frontend
+    const amount = body.amount || body.totalAmount;
+
+    console.log('[create-checkout] amount reçu:', amount, '| email:', email);
+
+    if (!amount || amount <= 0 || isNaN(amount)) {
+      console.error('[create-checkout] Montant invalide:', amount);
       return {
         statusCode: 400,
-        body: JSON.stringify({ error: 'Montant invalide' })
+        body: JSON.stringify({ error: 'Montant invalide: ' + amount })
       };
     }
 
@@ -24,7 +30,7 @@ exports.handler = async (event) => {
         {
           price_data: {
             currency: currency || 'eur',
-            unit_amount: amount, // Montant exact en centimes, identique au site
+            unit_amount: amount, // Montant exact en centimes depuis le site
             product_data: {
               name: description || "Commande L'Art du Sillage",
             },
@@ -43,7 +49,7 @@ exports.handler = async (event) => {
     };
 
   } catch (err) {
-    console.error('Stripe error:', err.message);
+    console.error('[create-checkout] Erreur:', err.message);
     return {
       statusCode: 500,
       body: JSON.stringify({ error: err.message }),
