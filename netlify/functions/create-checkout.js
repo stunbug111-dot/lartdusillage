@@ -6,52 +6,44 @@ exports.handler = async (event) => {
   }
 
   try {
-    const { email, items, totalAmount } = JSON.parse(event.body);
+    const { email, amount, currency, description } = JSON.parse(event.body);
 
-    // totalAmount est envoyé en centimes depuis le site (ex: 3289 pour 32.89€)
-    // On l'utilise directement pour garantir que Stripe affiche exactement le même montant
-    const amountInCents = totalAmount;
-
-    if (!amountInCents || amountInCents <= 0) {
+    // `amount` est le total exact du site, en centimes (ex: 3289 = 32.89€)
+    if (!amount || amount <= 0) {
       return {
         statusCode: 400,
         body: JSON.stringify({ error: 'Montant invalide' })
       };
     }
 
-    // Construire la description du récapitulatif pour Stripe
-    const description = items
-      .map(i => `${i.name} × ${i.quantity}`)
-      .join(', ');
-
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
       mode: 'payment',
-      customer_email: email,
+      customer_email: email || undefined,
       line_items: [
         {
           price_data: {
-            currency: 'eur',
-            unit_amount: amountInCents, // Montant exact du site, en centimes
+            currency: currency || 'eur',
+            unit_amount: amount, // Montant exact en centimes, identique au site
             product_data: {
-              name: 'Commande L\'Art du Sillage',
-              description: description,
+              name: description || "Commande L'Art du Sillage",
             },
           },
           quantity: 1,
         },
       ],
-      success_url: `${process.env.URL}/index.html?payment=success&session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${process.env.URL}/index.html?payment=cancel`,
+      success_url: `${process.env.URL}?payment=success&session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `${process.env.URL}?payment=cancel`,
     });
 
     return {
       statusCode: 200,
+      headers: { 'Access-Control-Allow-Origin': '*' },
       body: JSON.stringify({ url: session.url }),
     };
 
   } catch (err) {
-    console.error('Stripe error:', err);
+    console.error('Stripe error:', err.message);
     return {
       statusCode: 500,
       body: JSON.stringify({ error: err.message }),
