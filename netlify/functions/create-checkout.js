@@ -3,20 +3,12 @@ const Stripe = require('stripe');
 exports.handler = async (event) => {
   try {
     const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
-    const { email, items, total } = JSON.parse(event.body || '{}');
+    const { email, items } = JSON.parse(event.body || '{}');
 
-    // Use total directly if available, otherwise compute from items
-    let amount;
-    if (total && !isNaN(total)) {
-      amount = Math.round(parseFloat(total) * 100);
-    } else {
-      amount = items.reduce((sum, i) => {
-        const price = parseFloat(String(i.price).replace(/[^0-9.]/g, '')) || 0;
-        const qty = parseInt(i.quantity) || 1;
-        return sum + price * qty;
-      }, 0);
-      amount = Math.round(amount * 100);
-    }
+    // Les prix arrivent déjà en centimes depuis le HTML
+    const amount = items.reduce((sum, i) => {
+      return sum + (parseInt(i.price) || 0) * (parseInt(i.quantity) || 1);
+    }, 0);
 
     if (!amount || amount <= 0) {
       throw new Error('Montant invalide: ' + amount);
