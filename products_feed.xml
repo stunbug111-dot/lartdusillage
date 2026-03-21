@@ -5,427 +5,99 @@
     <link>https://artdusillage.com</link>
     <description>Parfums de luxe French Collection Paris, Maison El Nabil et Musk Collection</description>
 
-    <!-- ═══════════════════════════════════════════════ -->
-    <!-- FRENCH COLLECTION PARIS — 50ml — 29.99€       -->
-    <!-- ═══════════════════════════════════════════════ -->
+    <item><g:id>FCP-001</g:id><g:title>BAL — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum de luxe French Collection Paris. Notes : Gardenia, Pivoine, Santal, Vanille. Flacon 50ml. Livraison gratuite en France des 50 euros.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/BAL.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-002</g:id><g:title>MUSC — Parfum Unisexe 50ml | French Collection Paris</g:title><g:description>Parfum de luxe French Collection Paris. Notes : Musc blanc, Musc ambre, Santal, Iris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/MUSC.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-003</g:id><g:title>THE ALCHEMY — Parfum Unisexe 50ml | French Collection Paris</g:title><g:description>Parfum oriental French Collection Paris. Notes : Safran, Oud, Musc ambre, Miel, Encens. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/THE_ALCHEMY.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-004</g:id><g:title>REDROC — Parfum Homme 50ml | French Collection Paris</g:title><g:description>Parfum masculin French Collection Paris. Notes : Epices rouges, Oud boise, Vetiver, Musc fume. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/REDROC.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-005</g:id><g:title>TRAFALGAR — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum floral French Collection Paris. Notes : Rose anglaise, Pivoine, Iris, Musc poudre. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/TRAFALGAR.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-006</g:id><g:title>AMBRE — Parfum Unisexe 50ml | French Collection Paris</g:title><g:description>Parfum oriental French Collection Paris. Notes : Ambre chaud, Vanille, Musc, Bois de santal. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/AMBRE.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-007</g:id><g:title>HAMNAH — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum oriental femme French Collection Paris. Notes : Oud rose, Safran, Musc blanc, Ambre chaud. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/HAMNAH.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-008</g:id><g:title>CRYPTO NIGHT — Parfum Homme 50ml | French Collection Paris</g:title><g:description>Parfum boise homme French Collection Paris. Notes : Cardamome, Oud, Vetiver, Musc boise. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/CRYPTO_NIGHT.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-009</g:id><g:title>ROSE VANILLE — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum floral gourmand French Collection Paris. Notes : Rose, Vanille bourbon, Musc rose, Santal cremeux. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/ROSE_VANILLE.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-010</g:id><g:title>BOUQUET — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum floral French Collection Paris. Notes : Jasmin, Freesia, Rose, Musc fleuri. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/BOUQUET.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-011</g:id><g:title>VIE — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum femme French Collection Paris. Notes : Bergamote, Fleur de cerisier, Musc blanc, Santal. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/VIE.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-012</g:id><g:title>SOMBRE DESIR — Parfum Unisexe 50ml | French Collection Paris</g:title><g:description>Parfum oud cuir French Collection Paris. Notes : Musc sombre, Oud, Cuir, Ambre noir. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/SOMBRE_DESIR.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-013</g:id><g:title>GRIS — Parfum Unisexe 50ml | French Collection Paris</g:title><g:description>Parfum boise French Collection Paris. Notes : Iris, Musc gris, Cedre, Ambre blanc. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/GRIS.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-014</g:id><g:title>FEVE — Parfum Unisexe 50ml | French Collection Paris</g:title><g:description>Parfum gourmand French Collection Paris. Notes : Feve tonka, Cafe, Bois de oud, Musc ambre. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/FEVE.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-015</g:id><g:title>FRENCH PALACE — Parfum Unisexe 50ml | French Collection Paris</g:title><g:description>Parfum de prestige French Collection Paris. Notes : Rose centifolia, Iris, Bois de rose, Musc poudre. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/FRENCH_PALACE.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-016</g:id><g:title>PETALE SOMBRE — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum floral sombre femme French Collection Paris. Notes : Rose fanee, Oud, Musc sombre, Ambre noir. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/PETALE_SOMBRE.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-017</g:id><g:title>REGNE VERT — Parfum Unisexe 50ml | French Collection Paris</g:title><g:description>Parfum vert frais French Collection Paris. Notes : Basilic vert, Vetiver, The vert, Cedre. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/REGNE_VERT.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-018</g:id><g:title>MAGIC VANILLE — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum gourmand vanille femme French Collection Paris. Notes : Vanille de Madagascar, Caramel, Fleurs blanches, Musc doux. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/MAGIC_VANILLE.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-019</g:id><g:title>ROSENE — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum floral rose femme French Collection Paris. Notes : Rose, Pivoine, Framboise, Musc blanc. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/ROSENE.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-020</g:id><g:title>FRENCH KING — Parfum Homme 50ml | French Collection Paris</g:title><g:description>Parfum masculin prestige French Collection Paris. Notes : Bergamote royale, Cuir, Oud, Musc ambre. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/FRENCH_KING.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-021</g:id><g:title>ILES ROSES — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum floral fruite femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/ILES_ROSES.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-022</g:id><g:title>ODYSSEE — Parfum Unisexe 50ml | French Collection Paris</g:title><g:description>Parfum marin unisexe French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/ODYSSEE.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-023</g:id><g:title>NOMAD — Parfum Homme 50ml | French Collection Paris</g:title><g:description>Parfum aventurier homme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/NOMAD.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-024</g:id><g:title>AUTRE MONDE — Parfum Unisexe 50ml | French Collection Paris</g:title><g:description>Parfum mysterieux unisexe French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/AUTRE_MONDE.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-025</g:id><g:title>VELVET — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum velours femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/VELVET.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-026</g:id><g:title>YDILE — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum floral doux femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/YDILE.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-027</g:id><g:title>SOLID — Parfum Homme 50ml | French Collection Paris</g:title><g:description>Parfum boise solide homme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/SOLID.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-028</g:id><g:title>VOYAGE MERVEILLEUX — Parfum Unisexe 50ml | French Collection Paris</g:title><g:description>Parfum aventurier unisexe French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/VOYAGE_MERVEILLEUX.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-029</g:id><g:title>BLACK BEARD — Parfum Homme 50ml | French Collection Paris</g:title><g:description>Parfum boise fume homme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/BLACK_BEARD.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-030</g:id><g:title>WOOD — Parfum Homme 50ml | French Collection Paris</g:title><g:description>Parfum boise homme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/WOOD.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-031</g:id><g:title>MALE ALPHA — Parfum Homme 50ml | French Collection Paris</g:title><g:description>Parfum masculin intense French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/MALE_ALPHA.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-032</g:id><g:title>OUD — Parfum Unisexe 50ml | French Collection Paris</g:title><g:description>Parfum oud de luxe French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/OUD.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-033</g:id><g:title>WITH YOU — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum romantique femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/WITH_YOU.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-034</g:id><g:title>LA NUIT — Parfum Homme 50ml | French Collection Paris</g:title><g:description>Parfum nocturne homme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/LA_NUIT.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-035</g:id><g:title>AVENT — Parfum Homme 50ml | French Collection Paris</g:title><g:description>Parfum boise epice homme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/AVENT.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-036</g:id><g:title>BLEU — Parfum Homme 50ml | French Collection Paris</g:title><g:description>Parfum frais aquatique homme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/BLEU.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-037</g:id><g:title>KHAMRAH — Parfum Unisexe 50ml | French Collection Paris</g:title><g:description>Parfum oriental gourmand French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/KHAMRAH.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-038</g:id><g:title>ELA — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum floral femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/ELA.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-039</g:id><g:title>YARA — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum floral femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/YARA.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-040</g:id><g:title>HIND — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum oriental femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/HIND.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-041</g:id><g:title>SACRE — Parfum Unisexe 50ml | French Collection Paris</g:title><g:description>Parfum sacre unisexe French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/SACRE.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-042</g:id><g:title>OPIUM — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum oriental femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/OPIUM.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-043</g:id><g:title>CANTA PER ME — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum floral femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/CANTA_PER_ME.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-044</g:id><g:title>HYPNOTIC — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum envoutant femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/HYPNOTIC.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-045</g:id><g:title>BACCARA — Parfum Homme 50ml | French Collection Paris</g:title><g:description>Parfum elegant homme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/BACCARA.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-046</g:id><g:title>AMEERAT — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum oriental femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/AMEERAT.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-047</g:id><g:title>FLOWER CRUSH — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum floral femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/FLOWER_CRUSH.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-048</g:id><g:title>AWAL — Parfum Unisexe 50ml | French Collection Paris</g:title><g:description>Parfum unisexe French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/AWAL.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-049</g:id><g:title>INVIQTUS — Parfum Homme 50ml | French Collection Paris</g:title><g:description>Parfum masculin intense French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/INVIQTUS.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-050</g:id><g:title>MILLION — Parfum Homme 50ml | French Collection Paris</g:title><g:description>Parfum masculin prestige French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/MILLION.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-051</g:id><g:title>BOIS — Parfum Unisexe 50ml | French Collection Paris</g:title><g:description>Parfum boise unisexe French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/BOIS.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-052</g:id><g:title>INTENS — Parfum Homme 50ml | French Collection Paris</g:title><g:description>Parfum intense homme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/INTENS.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-053</g:id><g:title>LIAM — Parfum Homme 50ml | French Collection Paris</g:title><g:description>Parfum masculin French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/LIAM.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-054</g:id><g:title>SAVAGE — Parfum Homme 50ml | French Collection Paris</g:title><g:description>Parfum boise masculin French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/SAVAGE.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-055</g:id><g:title>PEGAZ — Parfum Homme 50ml | French Collection Paris</g:title><g:description>Parfum masculin French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/PEGAZ.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-056</g:id><g:title>LE NEJD — Parfum Homme 50ml | French Collection Paris</g:title><g:description>Parfum oriental homme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/LE_NEJD.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-057</g:id><g:title>LADY — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum elegant femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/LADY.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-058</g:id><g:title>TORRENT OF DREAMS — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum aquatique femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/TORRENT_OF_DREAMS.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-059</g:id><g:title>JADOR — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum floral femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/JADOR.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-060</g:id><g:title>NOIR PASSION — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum sensuel femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/NOIR_PASSION.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-061</g:id><g:title>FANTASTIC — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum petillant femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/FANTASTIC.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-062</g:id><g:title>LA ROBE — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum elegant femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/LA_ROBE.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-063</g:id><g:title>SY — Parfum Unisexe 50ml | French Collection Paris</g:title><g:description>Parfum unisexe French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/SY.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-064</g:id><g:title>TERRE — Parfum Homme 50ml | French Collection Paris</g:title><g:description>Parfum boise terreux homme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/TERRE.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-065</g:id><g:title>GALAXY — Parfum Unisexe 50ml | French Collection Paris</g:title><g:description>Parfum mysterieux unisexe French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/GALAXY.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-066</g:id><g:title>BELOUGA — Parfum Homme 50ml | French Collection Paris</g:title><g:description>Parfum aquatique homme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/BELOUGA.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-067</g:id><g:title>ROSE — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum floral rose femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/ROSE.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-068</g:id><g:title>CERISE N COLOR — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum fruite femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/CERISE_NCOLOR.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-069</g:id><g:title>DARK SIDE — Parfum Unisexe 50ml | French Collection Paris</g:title><g:description>Parfum sombre unisexe French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/DARK_SIDE.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-070</g:id><g:title>LUMIERE BLANCHE — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum delicat femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/LUMIERE_BLANCHE.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-071</g:id><g:title>COCO — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum gourmand coco femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/COCO.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-072</g:id><g:title>TABAC ORIENTAL — Parfum Homme 50ml | French Collection Paris</g:title><g:description>Parfum tabac oriental homme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/TABAC_ORIENTAL.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-073</g:id><g:title>MAYAR — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum oriental femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/MAYAR.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-074</g:id><g:title>MISS — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum floral femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/MISS.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>FCP-075</g:id><g:title>COCO VANILLE — Parfum Femme 50ml | French Collection Paris</g:title><g:description>Parfum gourmand coco vanille femme French Collection Paris. Flacon 50ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/COCO_VANILLE.png</g:image_link><g:price>29.99 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
 
-    <item>
-      <g:id>FCP-001</g:id>
-      <g:title>BAL — Parfum Femme 50ml | French Collection Paris</g:title>
-      <g:description>Parfum de luxe French Collection Paris. Notes : Gardénia, Pivoine, Santal, Vanille. Flacon 50ml. Livraison gratuite en France dès 50€.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>29.99 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>French Collection Paris</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Parfums &gt; Femme &gt; French Collection Paris</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
+    <!-- EL NABIL -->
+    <item><g:id>ENB-001</g:id><g:title>FLOWER OF JASMIN — Parfum El Nabil 5ml</g:title><g:description>Parfum de poche Maison El Nabil. Notes : Jasmin sambac, Gardenia, Neroli, Musc solaire. Flacon 5ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/FLOWER_OF_JAMIN.png</g:image_link><g:price>3.00 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>Maison El Nabil</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>ENB-002</g:id><g:title>MUSC ABU DHABI — Parfum El Nabil 5ml</g:title><g:description>Parfum de poche Maison El Nabil. Notes : Musc d Arabie, Oud blanc, Rose, Ambre oriental. Flacon 5ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/MUSC_ABU_DHABI.png</g:image_link><g:price>3.00 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>Maison El Nabil</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>ENB-003</g:id><g:title>ROYAL GOLD — Parfum El Nabil 5ml</g:title><g:description>Parfum prestige Maison El Nabil. Notes : Oud dore, Musc royal, Ambre precieux, Rose imperiale. Flacon 5ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/ROYAL_GOLD.png</g:image_link><g:price>3.00 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>Maison El Nabil</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>ENB-004</g:id><g:title>PRINCESSE — Parfum El Nabil 5ml</g:title><g:description>Parfum femme Maison El Nabil. Notes : Rose de mai, Pivoine, Santal, Musc rose. Flacon 5ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/PRINCESSE.png</g:image_link><g:price>3.00 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>Maison El Nabil</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>ENB-005</g:id><g:title>PRINCE — Parfum El Nabil 5ml</g:title><g:description>Parfum homme Maison El Nabil. Notes : Bergamote royale, Geranium, Cedre, Musc noble. Flacon 5ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/PRINCE.png</g:image_link><g:price>3.00 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>Maison El Nabil</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>ENB-006</g:id><g:title>AROMA — Parfum El Nabil 5ml</g:title><g:description>Parfum frais Maison El Nabil. Notes : Basilic frais, Menthe verte, Vetiver, Cedre. Flacon 5ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/AROMA.png</g:image_link><g:price>3.00 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>Maison El Nabil</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>ENB-007</g:id><g:title>GABRIELLE — Parfum El Nabil 5ml</g:title><g:description>Parfum floral femme Maison El Nabil. Notes : Jasmin blanc, Ylang-ylang, Fleur d oranger, Musc blanc. Flacon 5ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/GABRIELLE.png</g:image_link><g:price>3.00 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>Maison El Nabil</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>ENB-008</g:id><g:title>CANDY LOVE — Parfum El Nabil 5ml</g:title><g:description>Parfum gourmand femme Maison El Nabil. Notes : Sucre de canne, Fraise, Vanille, Musc sucre. Flacon 5ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/CANDY_LOVE.png</g:image_link><g:price>3.00 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>Maison El Nabil</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>ENB-009</g:id><g:title>SUGAR MUSC — Parfum El Nabil 5ml</g:title><g:description>Parfum musc sucre femme Maison El Nabil. Flacon 5ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/SUGAR_MUSC.png</g:image_link><g:price>3.00 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>Maison El Nabil</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>ENB-010</g:id><g:title>MUSC BROWN — Parfum El Nabil 5ml</g:title><g:description>Parfum musc brun Maison El Nabil. Notes : Musc brun, Vetiver, Oud, Ambre chaud. Flacon 5ml.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/MUSC_BROWN.png</g:image_link><g:price>3.00 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>Maison El Nabil</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
 
-    <item>
-      <g:id>FCP-002</g:id>
-      <g:title>MUSC — Parfum Unisexe 50ml | French Collection Paris</g:title>
-      <g:description>Parfum de luxe French Collection Paris. Notes : Musc blanc, Musc ambré, Santal, Iris. Flacon 50ml. Livraison gratuite en France dès 50€.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>29.99 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>French Collection Paris</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Parfums &gt; Unisexe &gt; French Collection Paris</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <item>
-      <g:id>FCP-003</g:id>
-      <g:title>THE ALCHEMY — Parfum Unisexe 50ml | French Collection Paris</g:title>
-      <g:description>Parfum oriental French Collection Paris. Notes : Safran, Oud, Musc ambré, Miel, Encens. Flacon 50ml. Livraison gratuite en France dès 50€.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>29.99 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>French Collection Paris</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Parfums &gt; Unisexe &gt; French Collection Paris</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <item>
-      <g:id>FCP-004</g:id>
-      <g:title>REDROC — Parfum Homme 50ml | French Collection Paris</g:title>
-      <g:description>Parfum masculin French Collection Paris. Notes : Épices rouges, Oud boisé, Vétiver, Musc fumé. Flacon 50ml. Livraison gratuite dès 50€.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>29.99 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>French Collection Paris</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Parfums &gt; Homme &gt; French Collection Paris</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <item>
-      <g:id>FCP-005</g:id>
-      <g:title>TRAFALGAR — Parfum Femme 50ml | French Collection Paris</g:title>
-      <g:description>Parfum floral French Collection Paris. Notes : Rose anglaise, Pivoine, Iris, Musc poudré. Flacon 50ml. Livraison gratuite dès 50€.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>29.99 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>French Collection Paris</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Parfums &gt; Femme &gt; French Collection Paris</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <item>
-      <g:id>FCP-006</g:id>
-      <g:title>AMBRE — Parfum Unisexe 50ml | French Collection Paris</g:title>
-      <g:description>Parfum oriental French Collection Paris. Notes : Ambre chaud, Vanille, Musc, Bois de santal. Flacon 50ml. Livraison gratuite dès 50€.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>29.99 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>French Collection Paris</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Parfums &gt; Unisexe &gt; French Collection Paris</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <item>
-      <g:id>FCP-008</g:id>
-      <g:title>CRYPTO NIGHT — Parfum Homme 50ml | French Collection Paris</g:title>
-      <g:description>Parfum boisé homme French Collection Paris. Notes : Cardamome, Oud, Vétiver, Musc boisé. Flacon 50ml. Livraison gratuite dès 50€.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>29.99 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>French Collection Paris</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Parfums &gt; Homme &gt; French Collection Paris</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <item>
-      <g:id>FCP-009</g:id>
-      <g:title>ROSE VANILLE — Parfum Femme 50ml | French Collection Paris</g:title>
-      <g:description>Parfum floral gourmand French Collection Paris. Notes : Rose, Vanille bourbon, Musc rose, Santal crémeux. Flacon 50ml.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>29.99 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>French Collection Paris</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Parfums &gt; Femme &gt; French Collection Paris</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <item>
-      <g:id>FCP-012</g:id>
-      <g:title>SOMBRE DESIR — Parfum Unisexe 50ml | French Collection Paris</g:title>
-      <g:description>Parfum oud cuir French Collection Paris. Notes : Musc sombre, Oud, Cuir, Ambre noir. Flacon 50ml. Livraison gratuite dès 50€.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>29.99 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>French Collection Paris</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Parfums &gt; Unisexe &gt; French Collection Paris</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <item>
-      <g:id>FCP-014</g:id>
-      <g:title>FEVE — Parfum Unisexe 50ml | French Collection Paris</g:title>
-      <g:description>Parfum gourmand French Collection Paris. Notes : Fève tonka, Café, Bois de oud, Musc ambré. Flacon 50ml.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>29.99 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>French Collection Paris</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Parfums &gt; Unisexe &gt; French Collection Paris</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <item>
-      <g:id>FCP-020</g:id>
-      <g:title>FRENCH KING — Parfum Homme 50ml | French Collection Paris</g:title>
-      <g:description>Parfum masculin prestige French Collection Paris. Notes : Bergamote royale, Cuir, Oud, Musc ambré. Flacon 50ml.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>29.99 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>French Collection Paris</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Parfums &gt; Homme &gt; French Collection Paris</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <item>
-      <g:id>FCP-032</g:id>
-      <g:title>OUD — Parfum Unisexe 50ml | French Collection Paris</g:title>
-      <g:description>Parfum oud de luxe French Collection Paris. Flacon 50ml. Livraison gratuite en France dès 50€.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>29.99 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>French Collection Paris</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Parfums &gt; Unisexe &gt; French Collection Paris</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <item>
-      <g:id>FCP-054</g:id>
-      <g:title>SAVAGE — Parfum Homme 50ml | French Collection Paris</g:title>
-      <g:description>Parfum boisé masculin French Collection Paris. Flacon 50ml. Livraison gratuite en France dès 50€.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>29.99 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>French Collection Paris</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Parfums &gt; Homme &gt; French Collection Paris</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <item>
-      <g:id>FCP-064</g:id>
-      <g:title>TERRE — Parfum Homme 50ml | French Collection Paris</g:title>
-      <g:description>Parfum boisé terreux homme French Collection Paris. Flacon 50ml. Livraison gratuite dès 50€.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>29.99 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>French Collection Paris</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Parfums &gt; Homme &gt; French Collection Paris</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <item>
-      <g:id>FCP-067</g:id>
-      <g:title>ROSE — Parfum Femme 50ml | French Collection Paris</g:title>
-      <g:description>Parfum floral rose French Collection Paris. Flacon 50ml. Livraison gratuite dès 50€.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>29.99 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>French Collection Paris</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Parfums &gt; Femme &gt; French Collection Paris</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <!-- ═══════════════════════════════════════════ -->
-    <!-- COFFRETS FRENCH COLLECTION — 100€          -->
-    <!-- ═══════════════════════════════════════════ -->
-
-    <item>
-      <g:id>COFFRET-001</g:id>
-      <g:title>Coffret Parfum Femme ENVOÛTANT — 4×50ml | SILLAGE</g:title>
-      <g:description>Coffret cadeau parfum femme de luxe. 4 flacons 50ml French Collection Paris sélectionnés pour leur séduction. Idéal cadeau anniversaire, Noël, fête des mères. Livraison gratuite.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>100.00 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>French Collection Paris</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Coffrets Parfum &gt; Femme</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <item>
-      <g:id>COFFRET-002</g:id>
-      <g:title>Coffret Parfum Homme L'ESSENCE DU GENTLEMAN — 4×50ml | SILLAGE</g:title>
-      <g:description>Coffret cadeau parfum homme de luxe. 4 flacons 50ml French Collection Paris pour l'homme élégant. Idéal cadeau anniversaire, Noël, fête des pères. Livraison gratuite.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>100.00 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>French Collection Paris</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Coffrets Parfum &gt; Homme</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <item>
-      <g:id>COFFRET-003</g:id>
-      <g:title>Coffret Parfum Femme ÉLÉGANCE FÉMININE — 4×50ml | SILLAGE</g:title>
-      <g:description>Coffret cadeau parfum femme raffiné. 4 flacons 50ml French Collection Paris. Sélection florale et féminine. Parfait comme idée cadeau. Livraison gratuite.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>100.00 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>French Collection Paris</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Coffrets Parfum &gt; Femme</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <item>
-      <g:id>COFFRET-004</g:id>
-      <g:title>Coffret Parfum SECRET DE NUIT — 4×50ml | SILLAGE</g:title>
-      <g:description>Coffret cadeau parfum oud et oriental. 4 flacons 50ml French Collection Paris aux notes mystérieuses et envoûtantes. Idéal cadeau de luxe. Livraison gratuite.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>100.00 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>French Collection Paris</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Coffrets Parfum &gt; Unisexe</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <!-- ═══════════════════════════════════════════ -->
-    <!-- MAISON EL NABIL — 5ml — 3€                -->
-    <!-- ═══════════════════════════════════════════ -->
-
-    <item>
-      <g:id>ENB-001</g:id>
-      <g:title>FLOWER OF JASMIN — Parfum El Nabil 5ml</g:title>
-      <g:description>Parfum de poche Maison El Nabil. Notes : Jasmin sambac, Gardénia, Néroli, Musc solaire. Flacon 5ml. Parfum halal de qualité.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>3.00 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>Maison El Nabil</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Parfums &gt; El Nabil &gt; Femme</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <item>
-      <g:id>ENB-002</g:id>
-      <g:title>MUSC ABU DHABI — Parfum El Nabil 5ml</g:title>
-      <g:description>Parfum de poche Maison El Nabil. Notes : Musc d'Arabie, Oud blanc, Rose, Ambre oriental. Flacon 5ml. Parfum halal de qualité.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>3.00 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>Maison El Nabil</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Parfums &gt; El Nabil &gt; Unisexe</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <item>
-      <g:id>ENB-003</g:id>
-      <g:title>ROYAL GOLD — Parfum El Nabil 5ml</g:title>
-      <g:description>Parfum de poche prestige Maison El Nabil. Notes : Oud doré, Musc royal, Ambre précieux, Rose impériale. Flacon 5ml.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>3.00 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>Maison El Nabil</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Parfums &gt; El Nabil &gt; Unisexe</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <item>
-      <g:id>ENB-004</g:id>
-      <g:title>PRINCESSE — Parfum El Nabil 5ml</g:title>
-      <g:description>Parfum de poche femme Maison El Nabil. Notes : Rose de mai, Pivoine, Santal, Musc rose. Flacon 5ml. Parfum halal.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>3.00 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>Maison El Nabil</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Parfums &gt; El Nabil &gt; Femme</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <item>
-      <g:id>ENB-005</g:id>
-      <g:title>PRINCE — Parfum El Nabil 5ml</g:title>
-      <g:description>Parfum de poche homme Maison El Nabil. Notes : Bergamote royale, Géranium, Cèdre, Musc noble. Flacon 5ml. Parfum halal.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>3.00 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>Maison El Nabil</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Parfums &gt; El Nabil &gt; Homme</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <!-- ════════════════════════════════════════════ -->
-    <!-- MUSK COLLECTION — 25g — 9.99€              -->
-    <!-- ════════════════════════════════════════════ -->
-
-    <item>
-      <g:id>MSK-001</g:id>
-      <g:title>TAHARA VANILLA — Crème Parfumée Musk Collection 25g</g:title>
-      <g:description>Crème parfumée solide Musk Collection. Parfum vanille tahara. Format 25g. Longue tenue, application sur la peau.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>9.99 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>Musk Collection</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Parfums &gt; Musk Collection</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <item>
-      <g:id>MSK-002</g:id>
-      <g:title>TROPICAL FRUITS — Crème Parfumée Musk Collection 25g</g:title>
-      <g:description>Crème parfumée solide Musk Collection aux fruits tropicaux. Format 25g. Longue tenue, application sur la peau.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>9.99 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>Musk Collection</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Parfums &gt; Musk Collection</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <item>
-      <g:id>MSK-003</g:id>
-      <g:title>POMEGRANATE — Crème Parfumée Musk Collection 25g</g:title>
-      <g:description>Crème parfumée solide Musk Collection à la grenade. Format 25g. Longue tenue, application sur la peau.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>9.99 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>Musk Collection</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Parfums &gt; Musk Collection</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <item>
-      <g:id>MSK-004</g:id>
-      <g:title>BLUEBERRY — Crème Parfumée Musk Collection 25g</g:title>
-      <g:description>Crème parfumée solide Musk Collection à la myrtille. Format 25g. Longue tenue, application sur la peau.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>9.99 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>Musk Collection</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Parfums &gt; Musk Collection</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
-
-    <item>
-      <g:id>COFFRET-MSK</g:id>
-      <g:title>Coffret Musk Collection — 4 Crèmes Parfumées 4×25g | SILLAGE</g:title>
-      <g:description>Coffret cadeau Musk Collection. Les 4 crèmes parfumées solides réunies dans un écrin cadeau : Tahara Vanilla, Tropical Fruits, Pomegranate, Blueberry. Idée cadeau originale.</g:description>
-      <g:link>https://artdusillage.com</g:link>
-      <g:price>40.00 EUR</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-      <g:brand>Musk Collection</g:brand>
-      <g:google_product_category>Health &amp; Beauty > Personal Care > Cosmetics > Perfume &amp; Cologne</g:google_product_category>
-      <g:product_type>Coffrets Parfum &gt; Musk Collection</g:product_type>
-      <g:identifier_exists>false</g:identifier_exists>
-    </item>
+    <!-- COFFRETS -->
+    <item><g:id>COFFRET-001</g:id><g:title>Coffret Parfum Femme ENVOUTANT 4x50ml | SILLAGE</g:title><g:description>Coffret cadeau parfum femme de luxe. 4 flacons 50ml French Collection Paris. Ideal cadeau anniversaire, Noel, fete des meres. Livraison gratuite.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/ChatGPT_Image_21_mars_2026_13_10_11.png</g:image_link><g:price>100.00 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>COFFRET-002</g:id><g:title>Coffret Parfum Homme ESSENCE DU GENTLEMAN 4x50ml | SILLAGE</g:title><g:description>Coffret cadeau parfum homme de luxe. 4 flacons 50ml French Collection Paris. Ideal cadeau anniversaire, Noel, fete des peres. Livraison gratuite.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/ChatGPT_Image_21_mars_2026_13_10_11.png</g:image_link><g:price>100.00 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>COFFRET-003</g:id><g:title>Coffret Parfum Femme ELEGANCE FEMININE 4x50ml | SILLAGE</g:title><g:description>Coffret cadeau parfum femme raffine. 4 flacons 50ml French Collection Paris. Parfait idee cadeau. Livraison gratuite.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/ChatGPT_Image_21_mars_2026_13_10_11.png</g:image_link><g:price>100.00 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
+    <item><g:id>COFFRET-004</g:id><g:title>Coffret Parfum SECRET DE NUIT 4x50ml | SILLAGE</g:title><g:description>Coffret cadeau parfum oud oriental. 4 flacons 50ml French Collection Paris. Ideal cadeau de luxe. Livraison gratuite.</g:description><g:link>https://artdusillage.com</g:link><g:image_link>https://artdusillage.com/ChatGPT_Image_21_mars_2026_13_10_11.png</g:image_link><g:price>100.00 EUR</g:price><g:availability>in stock</g:availability><g:condition>new</g:condition><g:brand>French Collection Paris</g:brand><g:google_product_category>Health &amp; Beauty &gt; Personal Care &gt; Cosmetics &gt; Perfume &amp; Cologne</g:google_product_category><g:identifier_exists>false</g:identifier_exists></item>
 
   </channel>
 </rss>
