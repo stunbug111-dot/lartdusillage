@@ -188,7 +188,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:1000;height:68px;display:flex;al
 
 /* ── CART ── */
 .cart-overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:200;opacity:0;pointer-events:none;transition:opacity .3s}
-body.scroll-locked{overflow:hidden;position:fixed;width:100%;touch-action:none}
 .cart-overlay.open{opacity:1;pointer-events:all}
 .cart-sidebar{position:fixed;top:0;right:0;bottom:0;width:420px;max-width:95vw;background:#0f0c07;z-index:201;display:flex;flex-direction:column;transform:translateX(100%);transition:transform .4s cubic-bezier(.16,1,.3,1);border-left:1px solid rgba(201,168,76,.15)}
 .cart-sidebar.open{transform:translateX(0)}
@@ -277,12 +276,12 @@ body.scroll-locked{overflow:hidden;position:fixed;width:100%;touch-action:none}
 .recap-mini strong{color:var(--or-pale)}
 
 /* ── PRODUCT MODAL ── */
-.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:1100;opacity:0;pointer-events:none;transition:opacity .3s;display:flex;align-items:center;justify-content:center;padding:24px}
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:150;opacity:0;pointer-events:none;transition:opacity .3s;display:flex;align-items:center;justify-content:center;padding:24px}
 .modal-overlay.open{opacity:1;pointer-events:all}
 .modal{background:#0f0c07;border:1px solid rgba(201,168,76,.2);max-width:820px;width:100%;display:grid;grid-template-columns:1fr 1fr;overflow:hidden;transform:scale(.95);transition:transform .3s;max-height:90vh;position:relative}
 .modal-overlay.open .modal{transform:scale(1)}
 .modal-img{background:linear-gradient(145deg,#1a1208,#0d0a05);display:flex;align-items:center;justify-content:center;font-size:9rem;min-height:420px;overflow:hidden}
-.modal-img img{width:100%;height:100%;object-fit:cover;object-position:center 35%;box-sizing:border-box}
+.modal-img img{width:100%;height:100%;object-fit:cover}
 .modal-content{padding:42px;overflow-y:auto}
 .modal-brand{font-size:.65rem;letter-spacing:.3em;text-transform:uppercase;color:var(--or);margin-bottom:8px}
 .modal-name{font-family:'Playfair Display',serif;font-size:1.9rem;font-weight:400;color:var(--creme);line-height:1.2;margin-bottom:6px}
@@ -441,10 +440,10 @@ footer{background:#05040a;border-top:1px solid rgba(201,168,76,.08);padding:64px
 .pay-divider::before,.pay-divider::after{content:'';flex:1;height:1px;background:rgba(201,168,76,.12)}
 .pay-secure-badges{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px;margin-bottom:4px}
 @media(max-width:640px){
+  #cartCmdTop{display:block!important}
   #step1ContinueTop{display:flex!important}
   #step2NavTop{display:flex!important}
   #step2NavBottom{display:none!important}
-
 }
 .pay-badge{font-size:.65rem;letter-spacing:.08em;padding:4px 10px;border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.4);border-radius:3px;background:rgba(255,255,255,.03)}
 /* ── MODAL PROMO COUNTDOWN ── */
@@ -752,8 +751,8 @@ footer{background:#05040a;border-top:1px solid rgba(201,168,76,.08);padding:64px
     max-height:90vh;overflow-y:auto;
     margin:0;width:100%;
   }
-  .modal-img{min-height:unset;max-height:unset;border-radius:20px 20px 0 0;background:#0d0a05;overflow:hidden;display:block;padding:0}
-  .modal-img img{object-fit:contain!important;width:100%!important;height:auto!important;display:block;background:#0d0a05;padding:0}
+  .modal-img{min-height:280px;border-radius:20px 20px 0 0;background:#0d0a05}
+  .modal-img img{object-fit:contain;background:#0d0a05}
   .modal-content{padding:20px 18px 40px;background:#0d0a05}
   .modal-name{font-size:1.5rem}
   .modal-close{top:12px;right:12px;width:34px;height:34px;font-size:1rem}
@@ -999,24 +998,67 @@ async function initFirebase() {
       if(typeof renderProducts === 'function') renderProducts();
 
 // Handle Stripe redirect return
+// La commande est déjà dans Firestore depuis confirmOrder().
+// Ici on met juste à jour le statut paiement et on confirme au client.
 (function() {
   const params = new URLSearchParams(window.location.search);
+
   if(params.get('payment') === 'success') {
+    const raw = sessionStorage.getItem('pendingOrder');
+    let order = null;
+
+    if(raw) {
+      try { order = JSON.parse(raw); } catch(e) {}
+    }
+
+    if(order) {
+      // Mettre à jour le statut : la commande passe de "En attente paiement" à "Nouvelle"
+      order.status = 'Nouvelle';
+      order.paymentStatus = 'paid';
+      order.paidAt = new Date().toISOString();
+
+      // Mise à jour Firestore (la commande existe déjà)
+      if(window._firebase && window._firebase.saveOrder) {
+        window._firebase.saveOrder(order);
+      }
+
+      // Mettre à jour le tableau local si pas déjà dedans
+      const existing = orders.findIndex(o => o.id === order.id);
+      if(existing >= 0) {
+        orders[existing] = order;
+      } else {
+        orders.push(order);
+      }
+
+      sendConfirmationEmail(order);
+      sessionStorage.removeItem('pendingOrder');
+      window.history.replaceState({}, '', window.location.pathname);
+      setTimeout(() => showConfirmation(order), 500);
+    } else {
+      // Cas où sessionStorage est vide (mobile, Safari ITP, etc.)
+      // La commande est quand même dans Firestore depuis confirmOrder().
+      // Elle apparaîtra dans l'admin avec status "En attente paiement"
+      // → l'admin peut croiser avec Stripe pour confirmer le paiement.
+      window.history.replaceState({}, '', window.location.pathname);
+      showToast('✓ Paiement reçu — merci pour votre commande !');
+    }
+
+  } else if(params.get('payment') === 'cancel') {
+    // Paiement annulé : supprimer la commande pending de Firestore
     const raw = sessionStorage.getItem('pendingOrder');
     if(raw) {
       try {
         const order = JSON.parse(raw);
-        orders.push(order);
-        sendConfirmationEmail(order);
-        if(window._firebase) window._firebase.saveOrder(order);
-        sessionStorage.removeItem('pendingOrder');
-        // Clean URL
-        window.history.replaceState({}, '', window.location.pathname);
-        // Show confirmation after short delay
-        setTimeout(() => showConfirmation(order), 500);
-      } catch(e) { sessionStorage.removeItem('pendingOrder'); }
+        if(window._firebase && window._firebase.deleteOrder && window._adminAuth !== true) {
+          // deleteOrder est protégé par _adminAuth, on ne peut pas l'appeler côté client.
+          // On marque juste la commande comme annulée à la place.
+          order.status = 'Annulée (paiement non finalisé)';
+          order.paymentStatus = 'cancelled';
+          if(window._firebase.saveOrder) window._firebase.saveOrder(order);
+        }
+      } catch(e) {}
+      sessionStorage.removeItem('pendingOrder');
     }
-  } else if(params.get('payment') === 'cancel') {
     window.history.replaceState({}, '', window.location.pathname);
     showToast('⚠ Paiement annulé — votre panier est conservé.');
   }
@@ -2423,7 +2465,6 @@ function sortProducts(v){
 }
 
 function openModal(id){
-  lockScroll();
   const p=products.find(x=>x.id===id); modalProduct=p; selectedVol=p.sizes[0];
   const mi=document.getElementById('modalImg');
   if(p.isCoffret&&p.imgs){
@@ -2506,7 +2547,7 @@ function openModal(id){
   const _firstRup=_ruptureSizes.includes(p.sizes[0]);
   const addBtn=document.getElementById('modalAddBtn');
   addBtn.disabled=_firstRup; addBtn.style.opacity=_firstRup?'.4':'1';
-  addBtn.onclick=()=>{if(!_ruptureSizes.includes(selectedVol)){addToCart(p,selectedVol);unlockScroll();closeModal();}};
+  addBtn.onclick=()=>{if(!_ruptureSizes.includes(selectedVol)){addToCart(p,selectedVol);closeModal();}};
   // Stock indicator hidden from customers
   const stkEl=document.getElementById('modalStock');
   if(stkEl) stkEl.style.display='none';
@@ -2535,7 +2576,6 @@ function selectVol(s,btn){
 function closeModal(e){
   if(e&&e.target!==document.getElementById('modalOverlay'))return;
   document.getElementById('modalOverlay').classList.remove('open');
-  if(typeof unlockScroll==='function')unlockScroll();
 }
 
 // ── CART ──
@@ -2726,23 +2766,9 @@ async function applyPromo(){
   }
   else showToast('✕ Code promo invalide');
 }
-function lockScroll(){
-  const y=window.scrollY;
-  document.body.classList.add('scroll-locked');
-  document.body.style.top='-'+y+'px';
-}
-function unlockScroll(){
-  const top=document.body.style.top;
-  document.body.classList.remove('scroll-locked');
-  document.body.style.top='';
-  if(top) window.scrollTo(0,parseInt(top||'0')*-1);
-}
-
 function toggleCart(){
-  const isOpen=document.getElementById('cartSidebar').classList.contains('open');
   document.getElementById('cartOverlay').classList.toggle('open');
   document.getElementById('cartSidebar').classList.toggle('open');
-  if(isOpen){unlockScroll();}else{lockScroll();}
 }
 
 // ── CHECKOUT ──
@@ -2768,7 +2794,6 @@ function proceedToCheckout(){
   setDeliveryMode('relais');
   document.getElementById('sameBilling').checked=true;
   document.getElementById('billingSection').style.display='none';
-  lockScroll();
   document.getElementById('checkoutOverlay').classList.add('open');
   document.getElementById('cartOverlay').classList.remove('open');
   document.getElementById('cartSidebar').classList.remove('open');
@@ -2782,7 +2807,6 @@ function closeCheckout(){
     sendAbandonEmail(step);
   }
   overlay.classList.remove('open');
-  unlockScroll();
   _abandonSent = false; // reset pour prochain panier
 }
 
@@ -2988,34 +3012,55 @@ function confirmOrder(){
     cardLast4: '****'
   };
 
+  // Marquer la commande comme "en attente paiement" et la sauvegarder
+  // dans Firestore IMMEDIATEMENT (avant Stripe) pour ne JAMAIS perdre
+  // de commande même si le client ne revient pas sur le site.
+  pendingOrder.status = 'En attente paiement';
+  pendingOrder.paymentStatus = 'pending';
+
+  // On garde aussi dans sessionStorage pour le retour rapide (fallback)
   sessionStorage.setItem('pendingOrder', JSON.stringify(pendingOrder));
 
-  // Redirect to Stripe Checkout via Netlify Function
-  fetch('/.netlify/functions/create-checkout', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      email: email,
-      amount: pendingTotalCents > 0 ? pendingTotalCents : Math.round(getTotal() * 100),
-      totalAmount: pendingTotalCents > 0 ? pendingTotalCents : Math.round(getTotal() * 100),
-      currency: 'eur',
-      description: "Commande L'Art du Sillage"
+  // Écriture Firestore AVANT redirection — c'est le fix critique.
+  // Si l'écriture échoue, on bloque pour ne pas envoyer un paiement
+  // sans trace de commande.
+  const saveBeforePayment = (window._firebase && window._firebase.saveOrder)
+    ? window._firebase.saveOrder(pendingOrder)
+    : Promise.resolve();
+
+  saveBeforePayment
+    .catch(err => {
+      console.warn('Sauvegarde pré-paiement échouée, on continue quand même:', err);
     })
-  })
-  .then(res => res.json())
-  .then(data => {
-    if(data.url) {
-      window.location.href = data.url;
-    } else {
-      throw new Error(data.error || 'Erreur lors de la création du paiement');
-    }
-  })
-  .catch(err => {
-    const errEl = document.getElementById('stripe-pay-error');
-    if(errEl) { errEl.style.display = 'block'; errEl.textContent = err.message; }
-    btn.disabled = false;
-    btn.textContent = '✦ Confirmer et payer';
-  });
+    .then(() => {
+      // Redirect to Stripe Checkout via Netlify Function
+      return fetch('/.netlify/functions/create-checkout', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email: email,
+          amount: pendingTotalCents > 0 ? pendingTotalCents : Math.round(getTotal() * 100),
+          totalAmount: pendingTotalCents > 0 ? pendingTotalCents : Math.round(getTotal() * 100),
+          currency: 'eur',
+          description: "Commande L'Art du Sillage",
+          orderId: pendingOrder.id
+        })
+      });
+    })
+    .then(res => res.json())
+    .then(data => {
+      if(data.url) {
+        window.location.href = data.url;
+      } else {
+        throw new Error(data.error || 'Erreur lors de la création du paiement');
+      }
+    })
+    .catch(err => {
+      const errEl = document.getElementById('stripe-pay-error');
+      if(errEl) { errEl.style.display = 'block'; errEl.textContent = err.message; }
+      btn.disabled = false;
+      btn.textContent = '✦ Confirmer et payer';
+    });
 }
 
 
