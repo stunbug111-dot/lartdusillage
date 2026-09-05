@@ -810,7 +810,14 @@ const EMAILJS_TEMPLATE_CONFIRMATION = 'template_pe2kmu3';
 const EMAILJS_TEMPLATE_EXPEDITION = 'template_djcptta';
 
 function sendConfirmationEmail(order) {
-  const items = order.items ? order.items.map(i => `${(i.product&&i.product.name)||i.name||''} x${i.qty||1} — ${(i.product&&i.product.price*(i.qty||1))||i.price||''}€`).join(' | ') : '';
+  const items = order.items ? order.items.map(i => {
+    const name = (i.product && i.product.name) || i.name || '';
+    const vol = i.vol ? ` (${i.vol})` : '';
+    const qty = i.qty || 1;
+    const unitPrice = (i.product && i.product.price) || i.price || 0;
+    const lineTotal = (unitPrice * qty).toFixed(2);
+    return `${name}${vol} — Quantité : ${qty} — ${lineTotal}€`;
+  }).join('<br>') : '';
   emailjs.send(EMAILJS_SERVICE, EMAILJS_TEMPLATE_CONFIRMATION, {
     to_email: order.email,
     client_name: order.firstName || order.name || 'Client',
@@ -1004,7 +1011,7 @@ async function initFirebase() {
   const params = new URLSearchParams(window.location.search);
 
   if(params.get('payment') === 'success') {
-    const raw = sessionStorage.getItem('pendingOrder');
+    const raw = sessionStorage.getItem('pendingOrder') || localStorage.getItem('pendingOrder');
     let order = null;
 
     if(raw) {
@@ -1032,6 +1039,7 @@ async function initFirebase() {
 
       sendConfirmationEmail(order);
       sessionStorage.removeItem('pendingOrder');
+      try { localStorage.removeItem('pendingOrder'); } catch(e) {}
       window.history.replaceState({}, '', window.location.pathname);
       setTimeout(() => showConfirmation(order), 500);
     } else {
@@ -1045,7 +1053,7 @@ async function initFirebase() {
 
   } else if(params.get('payment') === 'cancel') {
     // Paiement annulé : supprimer la commande pending de Firestore
-    const raw = sessionStorage.getItem('pendingOrder');
+    const raw = sessionStorage.getItem('pendingOrder') || localStorage.getItem('pendingOrder');
     if(raw) {
       try {
         const order = JSON.parse(raw);
@@ -1058,6 +1066,7 @@ async function initFirebase() {
         }
       } catch(e) {}
       sessionStorage.removeItem('pendingOrder');
+      try { localStorage.removeItem('pendingOrder'); } catch(e) {}
     }
     window.history.replaceState({}, '', window.location.pathname);
     showToast('⚠ Paiement annulé — votre panier est conservé.');
@@ -3019,7 +3028,10 @@ function confirmOrder(){
   pendingOrder.paymentStatus = 'pending';
 
   // On garde aussi dans sessionStorage pour le retour rapide (fallback)
+  // sessionStorage + localStorage : localStorage survit beaucoup mieux
+  // aux redirections Stripe sur mobile (nouvel onglet, Safari ITP, 3DS).
   sessionStorage.setItem('pendingOrder', JSON.stringify(pendingOrder));
+  try { localStorage.setItem('pendingOrder', JSON.stringify(pendingOrder)); } catch(e) {}
 
   // Écriture Firestore AVANT redirection — c'est le fix critique.
   // Si l'écriture échoue, on bloque pour ne pas envoyer un paiement
