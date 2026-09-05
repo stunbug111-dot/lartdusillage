@@ -17,7 +17,7 @@
     Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=(self)"
 
     # Content Security Policy
-    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://www.gstatic.com https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src 'self' https://*.googleapis.com https://firestore.googleapis.com https://identitytoolkit.googleapis.com https://api.emailjs.com https://api.stripe.com; frame-src https://js.stripe.com; img-src 'self' data: blob: https:; object-src 'none'; base-uri 'self';"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://js.stripe.com https://cdn.jsdelivr.net https://www.gstatic.com https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src 'self' https://*.googleapis.com https://firestore.googleapis.com https://identitytoolkit.googleapis.com https://api.emailjs.com https://api.stripe.com; frame-src https://js.stripe.com; img-src 'self' data: blob: https:; object-src 'none'; base-uri 'self';"
 
     # Protection XSS (legacy browsers)
     X-XSS-Protection = "1; mode=block"
